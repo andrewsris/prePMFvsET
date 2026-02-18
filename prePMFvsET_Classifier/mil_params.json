@@ -1,0 +1,58 @@
+{
+ "trainer": "fastai",
+ "params": {
+  "aggregation_level": "slide",
+  "lr": 0.001,
+  "wd": 1e-05,
+  "bag_size": 16,
+  "fit_one_cycle": true,
+  "epochs": 32,
+  "batch_size": 64,
+  "model": "attention_mil",
+  "apply_softmax": true,
+  "model_kwargs": null,
+  "use_lens": true
+ },
+ "outcomes": "bmbx_diagnosis",
+ "outcome_labels": {
+  "0": "ET",
+  "1": "prePMF"
+ },
+ "bags": "./bags/retccl_302_macenko",
+ "input_shape": 2048,
+ "output_shape": 2,
+ "bags_extractor": {
+  "extractor": {
+   "class": "slideflow.model.extractors.retccl.RetCCLFeatures",
+   "kwargs": {
+    "center_crop": true
+   }
+  },
+  "normalizer": {
+   "method": "macenko",
+   "fit": {
+    "stain_matrix_target": [
+     [
+      0.5062568187713623,
+      0.22186939418315887
+     ],
+     [
+      0.7532230615615845,
+      0.8652154803276062
+     ],
+     [
+      0.4069173336029053,
+      0.42241501808166504
+     ]
+    ],
+    "target_concentrations": [
+     1.7656903266906738,
+     1.2797492742538452
+    ]
+   }
+  },
+  "num_features": 2048,
+  "tile_px": 299,
+  "tile_um": 302
+ }
+}

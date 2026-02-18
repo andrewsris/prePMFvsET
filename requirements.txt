@@ -1,0 +1,6 @@
+slideflow==2.2.1
+torch
+torchvision
+fastai
+paramiko
+scp

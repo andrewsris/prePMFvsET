@@ -1,0 +1,15 @@
+# Temporary Slideflow work directories
+*_temp/
+temp_project/
+
+# Python artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local data and predictions
+output/
+features/
+test_features/
+predictions.csv
+.DS_Store
