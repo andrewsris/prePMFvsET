@@ -7,11 +7,6 @@ It provides a minimal, reproducible pipeline to:
 1.  **Preprocess** whole slide images (WSIs) into feature bags using the exact normalization parameters from the study.
 2.  **Predict** the probability of prePMF vs. ET using the trained Multiple Instance Learning (MIL) model.
 
-## Citation
-
-If you use this code or model in your research, please cite:
-
-> Srisuwananukorn A, et al. Artificial intelligence differentiates prefibrotic primary myelofibrosis with thrombocytosis from essential thrombocythemia using digitized bone marrow biopsy images. *Leukemia*. 2026. DOI: 10.1038/s41375-026-02893-7.
 
 ## Data Requirements
 
@@ -84,3 +79,9 @@ For execution in a local Python environment (3.8+), ensuring GPU support and app
 - **Classifier**: Attention-based Multiple Instance Learning (MIL) Aggregation.
 - **Resolution**: 299 px tiles at 1.01 µm/px (~302 µm field-of-view).
 - **Environment**: Optimized for Slideflow 2.2.1 (verified repo environment).
+
+## Citation
+
+If you use this code or model in your research, please cite our original manuscript:
+
+> Srisuwananukorn, A., Loscocco, G.G., Dolezal, J.M. et al. Artificial intelligence differentiates prefibrotic primary myelofibrosis with thrombocytosis from essential thrombocythemia using digitized bone marrow biopsy images. Leukemia (2026). https://doi.org/10.1038/s41375-026-02893-7
