@@ -84,4 +84,4 @@ For execution in a local Python environment (3.8+), ensuring GPU support and app
 
 If you use this code or model in your research, please cite our original manuscript:
 
-> Srisuwananukorn, A., Loscocco, G.G., Dolezal, J.M. et al. Artificial intelligence differentiates prefibrotic primary myelofibrosis with thrombocytosis from essential thrombocythemia using digitized bone marrow biopsy images. Leukemia (2026). https://doi.org/10.1038/s41375-026-02893-7
+> Srisuwananukorn A, Loscocco GG, Dolezal JM, Kuykendall AT, Santi R, Zhang L, Singh AM, Guglielmelli P, Vannucchi AM, Salama ME, Pearson AT, Hoffman R. Artificial intelligence differentiates prefibrotic primary myelofibrosis with thrombocytosis from essential thrombocythemia using digitized bone marrow biopsy images. Leukemia. 2026 Feb 20. doi: 10.1038/s41375-026-02893-7. Epub ahead of print. PMID: 41721088.
